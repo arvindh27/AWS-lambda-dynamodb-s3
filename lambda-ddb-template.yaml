@@ -14,7 +14,7 @@ Resources:
         WriteCapacityUnits: 5
       Tags:
         - Key: owner
-          Value: Mystique
+          Value: Arvind
         - Key: project
           Value: lambda-demo
     UpdateReplacePolicy: Retain
@@ -37,7 +37,7 @@ Resources:
               - :iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
       Tags:
         - Key: owner
-          Value: Mystique
+          Value: Arvind
         - Key: project
           Value: lambda-demo
   greeterFnServiceRoleDefaultPolicyEC59265B:
@@ -82,7 +82,7 @@ Resources:
       Runtime: python3.8
       Tags:
         - Key: owner
-          Value: Mystique
+          Value: Arvind
         - Key: project
           Value: lambda-demo
       Timeout: 15
